@@ -4,3 +4,6 @@ Debug.Log("Hello"); These print to the console
 
 integer variables are called int, then we name them starting with a lowercase letter
 ex: int myAgeIs
+
+if statements check if a condition is true
+ex. if (Input.GetKeyDown("[insert button here]"))--> checks if a specific button is pressed
