@@ -2,8 +2,14 @@
 
 Debug.Log("Hello"); These print to the console
 
-integer variables are called int, then we name them starting with a lowercase letter
+//integer variables are called int, then we name them starting with a lowercase letter
 ex: int myAgeIs
 
-if statements check if a condition is true
+//if statements check if a condition is true
 ex. if (Input.GetKeyDown("[insert button here]"))--> checks if a specific button is pressed
+
+//reseting a variable to a new value
+upperLimit = guess;
+
+//recalculating guess average based on new numbers
+guess = (lowerLimit + upperLimit) / 2;
